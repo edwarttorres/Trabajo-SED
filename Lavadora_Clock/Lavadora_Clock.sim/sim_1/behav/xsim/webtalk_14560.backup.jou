@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1.3 (64-bit)
+# SW Build 2644227 on Wed Sep  4 09:45:24 MDT 2019
+# IP Build 2633630 on Wed Sep  4 12:30:14 MDT 2019
+# Start of session at: Mon Dec 16 19:51:37 2019
+# Process ID: 14560
+# Current directory: C:/Users/edu-a/Desktop/Lavadora_Clock/Lavadora_Clock.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/edu-a/Desktop/Lavadora_Clock/Lavadora_Clock.sim/sim_1/behav/xsim/xsim.dir/CLOCK_DIVIDER_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/edu-a/Desktop/Lavadora_Clock/Lavadora_Clock.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/edu-a/Desktop/Lavadora_Clock/Lavadora_Clock.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/edu-a/Desktop/Lavadora_Clock/Lavadora_Clock.sim/sim_1/behav/xsim/xsim.dir/CLOCK_DIVIDER_tb_behav/webtalk/xsim_webtalk.tcl -notrace
