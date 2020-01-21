@@ -44,10 +44,10 @@
 /* Private variables ---------------------------------------------------------*/
 ADC_HandleTypeDef hadc1;
 DMA_HandleTypeDef hdma_adc1;
+
 I2C_HandleTypeDef hi2c1;
 
 TIM_HandleTypeDef htim1;
-
 TIM_HandleTypeDef htim4;
 
 /* USER CODE BEGIN PV */
@@ -261,7 +261,6 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 		//MANUAL MODE (led azul)
-		set_rgb(255,255,255);
 		if(Estado)	{	
 			ctrl_casa();
 			ctrl_ldr();
@@ -627,7 +626,7 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pin : SW_RGB_Pin */
   GPIO_InitStruct.Pin = SW_RGB_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
   HAL_GPIO_Init(SW_RGB_GPIO_Port, &GPIO_InitStruct);
 
   /* EXTI interrupt init*/

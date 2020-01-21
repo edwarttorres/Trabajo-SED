@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=C:/Users/edu-a/Desktop/Control_Luces/Inc
+HeaderPath=C:/Users/edu-a/Documents/GitHub/Trabajo-SED/Control_Luces_STM32F411/Inc
 HeaderFiles=stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;
-SourcePath=C:/Users/edu-a/Desktop/Control_Luces/Src
+SourcePath=C:/Users/edu-a/Documents/GitHub/Trabajo-SED/Control_Luces_STM32F411/Src
 SourceFiles=stm32f4xx_it.c;stm32f4xx_hal_msp.c;main.c;
 
 [PreviousLibFiles]
