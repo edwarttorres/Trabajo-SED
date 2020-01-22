@@ -1,0 +1,20 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Lavadora.srcs/sources_1/new/BLOQUE_TEMPORIZADOR.vhd" \
+"../../../../Lavadora.srcs/sources_1/new/CLOCK_DIVIDER.vhd" \
+"../../../../Lavadora.srcs/sources_1/new/Control.vhd" \
+"../../../../Lavadora.srcs/sources_1/new/FSM_CONTROL.vhd" \
+"../../../../Lavadora.srcs/sources_1/new/Sistema_fisico.vhd" \
+"../../../../Lavadora.srcs/sources_1/new/slave_n.vhd" \
+"../../../../Lavadora.srcs/sources_1/new/Lavadora.vhd" \
+"../../../../Lavadora.srcs/sources_1/new/Displays.vhd" \
+"../../../../Lavadora.srcs/sources_1/new/Leds.vhd" \
+"../../../../Lavadora.srcs/sim_1/new/CLOCK_DIVIDER_tb.vhd" \
+"../../../../Lavadora.srcs/sim_1/new/CONTROL_TESTBENCH.vhd" \
+"../../../../Lavadora.srcs/sim_1/new/LAVADORA_TESTBENCH.vhd" \
+"../../../../Lavadora.srcs/sim_1/new/slave_tb.vhd" \
+"../../../../Lavadora.srcs/sim_1/new/DISPLAYS_TESTBENCH.vhd" \
+"../../../../Lavadora.srcs/sim_1/new/Leds_tb.vhd" \
+
+# Do not sort compile order
+nosort

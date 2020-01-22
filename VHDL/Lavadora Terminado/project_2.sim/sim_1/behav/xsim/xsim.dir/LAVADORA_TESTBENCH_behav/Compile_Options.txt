@@ -1,0 +1,1 @@
+-wto "af443ddf4ae44319a4b7a699d95b2f8e" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "LAVADORA_TESTBENCH_behav" "xil_defaultlib.LAVADORA_TESTBENCH" -log "elaborate.log" 

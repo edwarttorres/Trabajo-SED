@@ -26,66 +26,42 @@ Project File Date:  01/21/2020
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
-Rebuild target 'Control_Luces'
-assembling startup_stm32f411xe.s...
-compiling stm32f4xx_it.c...
-compiling stm32f4xx_hal_i2c_ex.c...
-compiling stm32f4xx_hal_adc_ex.c...
-compiling stm32f4xx_hal_msp.c...
+Build target 'Control_Luces'
 compiling main.c...
-../Src/main.c(117): warning:  #188-D: enumerated type mixed with another type
+../Src/main.c(116): warning:  #188-D: enumerated type mixed with another type
   			HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14,1);
-../Src/main.c(119): warning:  #188-D: enumerated type mixed with another type
+../Src/main.c(118): warning:  #188-D: enumerated type mixed with another type
   			HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14,0);
-../Src/main.c(141): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+../Src/main.c(140): warning:  #1035-D: single-precision operand implicitly converted to double-precision
   		distancia = (numTicks + 0.0f)*2.8*VelSonido;
-../Src/main.c(145): warning:  #188-D: enumerated type mixed with another type
+../Src/main.c(144): warning:  #188-D: enumerated type mixed with another type
   			HAL_GPIO_WritePin(GPIOD, GPIO_PIN_10, 1);
-../Src/main.c(151): warning:  #188-D: enumerated type mixed with another type
+../Src/main.c(150): warning:  #188-D: enumerated type mixed with another type
   			HAL_GPIO_WritePin(GPIOD, GPIO_PIN_10, 0);
-../Src/main.c(155): warning:  #188-D: enumerated type mixed with another type
+../Src/main.c(154): warning:  #188-D: enumerated type mixed with another type
   			HAL_GPIO_WritePin(GPIOD, GPIO_PIN_10, 0);
-../Src/main.c(163): warning:  #188-D: enumerated type mixed with another type
+../Src/main.c(162): warning:  #188-D: enumerated type mixed with another type
   			HAL_GPIO_WritePin(puertoled,pinled,0);
-../Src/main.c(182): warning:  #188-D: enumerated type mixed with another type
+../Src/main.c(181): warning:  #188-D: enumerated type mixed with another type
   		HAL_GPIO_WritePin(GPIOD,GPIO_PIN_15,0);
-../Src/main.c(183): warning:  #188-D: enumerated type mixed with another type
+../Src/main.c(182): warning:  #188-D: enumerated type mixed with another type
   		HAL_GPIO_WritePin(GPIOD,GPIO_PIN_13,0);
-../Src/main.c(196): warning:  #188-D: enumerated type mixed with another type
+../Src/main.c(195): warning:  #188-D: enumerated type mixed with another type
   		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_14,1); //se enciende el led de la placa rojo para indicar que han saltado los fusibles
-../Src/main.c(199): warning:  #188-D: enumerated type mixed with another type
+../Src/main.c(198): warning:  #188-D: enumerated type mixed with another type
   		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_14,0);
-../Src/main.c(202): warning:  #188-D: enumerated type mixed with another type
+../Src/main.c(201): warning:  #188-D: enumerated type mixed with another type
   		ModeSelect(1,1,0); //Seleccion Modo Manual
-../Src/main.c(202): warning:  #188-D: enumerated type mixed with another type
+../Src/main.c(201): warning:  #188-D: enumerated type mixed with another type
   		ModeSelect(1,1,0); //Seleccion Modo Manual
-../Src/main.c(206): warning:  #188-D: enumerated type mixed with another type
+../Src/main.c(205): warning:  #188-D: enumerated type mixed with another type
   		ModeSelect(2,0,1); //Seleccion Modo Automatico
-../Src/main.c(206): warning:  #188-D: enumerated type mixed with another type
+../Src/main.c(205): warning:  #188-D: enumerated type mixed with another type
   		ModeSelect(2,0,1); //Seleccion Modo Automatico
-../Src/main.c: 15 warnings, 0 errors
-compiling stm32f4xx_hal_adc.c...
-compiling stm32f4xx_hal_i2c.c...
-compiling stm32f4xx_hal_flash_ramfunc.c...
-compiling stm32f4xx_hal_flash_ex.c...
-compiling stm32f4xx_hal_rcc.c...
-compiling stm32f4xx_hal_rcc_ex.c...
-compiling stm32f4xx_hal_tim_ex.c...
-compiling stm32f4xx_hal_flash.c...
-compiling stm32f4xx_hal_tim.c...
-compiling stm32f4xx_hal.c...
-compiling stm32f4xx_hal_pwr.c...
-compiling stm32f4xx_hal_gpio.c...
-compiling stm32f4xx_hal_pwr_ex.c...
-compiling stm32f4xx_hal_dma_ex.c...
-compiling stm32f4xx_hal_dma.c...
-compiling stm32f4xx_hal_cortex.c...
-compiling system_stm32f4xx.c...
-compiling stm32f4xx_hal_exti.c...
-linking...
-Program Size: Code=9728 RO-data=472 RW-data=40 ZI-data=1408  
-FromELF: creating hex file...
-"Control_Luces\Control_Luces.axf" - 0 Error(s), 15 Warning(s).
+../Src/main.c(392): error:  #20: identifier "hi2c1" is undefined
+    hi2c1.Instance = I2C1;
+../Src/main.c: 15 warnings, 1 error
+"Control_Luces\Control_Luces.axf" - 1 Error(s), 15 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -108,7 +84,8 @@ Package Vendor: Keil
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.3.0
-Build Time Elapsed:  00:00:13
+Target not created.
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

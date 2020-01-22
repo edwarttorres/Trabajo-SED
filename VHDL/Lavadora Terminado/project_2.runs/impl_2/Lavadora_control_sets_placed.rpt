@@ -1,0 +1,85 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Jan 21 13:45:30 2020
+| Host         : DESKTOP-3M46UM4 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Lavadora_control_sets_placed.rpt
+| Design       : Lavadora
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |     7 |
+|    Minimum number of control sets                        |     7 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    22 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |     7 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |     4 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               2 |            1 |
+| No           | No                    | Yes                    |              33 |           14 |
+| No           | Yes                   | No                     |              80 |           22 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               7 |            3 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+------------------------------------------+------------------------------------------------------+------------------+----------------+
+|  Clock Signal  |               Enable Signal              |                   Set/Reset Signal                   | Slice Load Count | Bel Load Count |
++----------------+------------------------------------------+------------------------------------------------------+------------------+----------------+
+|  pulso50_BUFG  |                                          |                                                      |                1 |              2 |
+|  clk_IBUF_BUFG | Inst_CLOCK_DIVIDER/contador50[0]_i_1_n_0 | reset_IBUF                                           |                3 |              7 |
+|  reloj_BUFG    |                                          | reset_IBUF                                           |                8 |             15 |
+|  reloj_BUFG    |                                          | Inst_Control/Inst_FSM_CONTROL/tiempores              |                5 |             17 |
+|  clk_IBUF_BUFG |                                          | reset_IBUF                                           |                6 |             18 |
+|  pulso50_BUFG  |                                          | Inst_Sist_Fisico/Inst_Display/counterled[31]_i_1_n_0 |                8 |             31 |
+|  pulso50_BUFG  |                                          | Inst_Sist_Fisico/Inst_Leds/counterled[31]_i_1__0_n_0 |                9 |             32 |
++----------------+------------------------------------------+------------------------------------------------------+------------------+----------------+
+
+

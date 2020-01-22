@@ -1,0 +1,26 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/edu-a/Desktop/Lavadora/project_2.srcs/sources_1/new/CLOCK_DIVIDER.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CLOCK_DIVIDER'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/edu-a/Desktop/Lavadora/project_2.srcs/sources_1/new/Control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Control'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/edu-a/Desktop/Lavadora/project_2.srcs/sources_1/new/Displays.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Display'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/edu-a/Desktop/Lavadora/project_2.srcs/sources_1/new/FSM_CONTROL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FSM_CONTROL'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/edu-a/Desktop/Lavadora/project_2.srcs/sources_1/new/Leds.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Leds'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/edu-a/Desktop/Lavadora/project_2.srcs/sources_1/new/Sistema_fisico.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Sistema_fisico'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/edu-a/Desktop/Lavadora/project_2.srcs/sources_1/new/Lavadora.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Lavadora'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/edu-a/Desktop/Lavadora/project_2.srcs/sim_1/new/CLOCK_DIVIDER_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CLOCK_DIVIDER_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/edu-a/Desktop/Lavadora/project_2.srcs/sim_1/new/DISPLAYS_TESTBENCH.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_Display'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/edu-a/Desktop/Lavadora/project_2.srcs/sim_1/new/Leds_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Leds_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/edu-a/Desktop/Lavadora/project_2.srcs/sim_1/new/control_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_Control'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/edu-a/Desktop/Lavadora/project_2.srcs/sim_1/new/slave_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'slave_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/edu-a/Desktop/Lavadora/project_2.srcs/sim_1/new/LAVADORA_TESTBENCH.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LAVADORA_TESTBENCH'

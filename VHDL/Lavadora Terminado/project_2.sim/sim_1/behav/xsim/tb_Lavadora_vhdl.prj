@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/new/BLOQUE_TEMPORIZADOR.vhd" \
+"../../../../project_1.srcs/sources_1/new/CLOCK_DIVIDER.vhd" \
+"../../../../project_1.srcs/sources_1/new/Control.vhd" \
+"../../../../project_1.srcs/sources_1/new/Displays.vhd" \
+"../../../../project_1.srcs/sources_1/new/FSM_CONTROL.vhd" \
+"../../../../project_1.srcs/sources_1/new/Lavadora.vhd" \
+"../../../../project_1.srcs/sources_1/new/Leds.vhd" \
+"../../../../project_1.srcs/sources_1/new/Sistema_fisico.vhd" \
+"../../../../project_1.srcs/sources_1/new/slave_n.vhd" \
+"../../../../project_1.srcs/sim_1/new/tb_Lavadora.vhd" \
+
+# Do not sort compile order
+nosort

@@ -44,7 +44,7 @@
 /* Private variables ---------------------------------------------------------*/
 ADC_HandleTypeDef hadc1; //convertidor ad
 DMA_HandleTypeDef hdma_adc1;
-I2C_HandleTypeDef hi2c1;
+//I2C_HandleTypeDef hi2c1;
 
 TIM_HandleTypeDef htim1; //pwm
 TIM_HandleTypeDef htim4; //sensor ultrasonido
@@ -189,7 +189,7 @@ void ctrl_rgb(void) { //asignacion de los colores para los pulsos PWM
 			HAL_GPIO_WritePin(GPIOD,GPIO_PIN_13,led_naranja);
 	}
 	
-	void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
+	void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){	//INTERRUPCIONES
 	
 	if (GPIO_Pin==GPIO_PIN_0){
 		HAL_GPIO_WritePin(GPIOD, GPIO_PIN_14,1); //se enciende el led de la placa rojo para indicar que han saltado los fusibles

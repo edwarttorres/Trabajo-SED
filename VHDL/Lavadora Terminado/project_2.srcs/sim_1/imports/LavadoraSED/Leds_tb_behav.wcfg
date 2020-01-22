@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Leds_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Leds_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="271040000fs"></ZoomStartTime>
+      <ZoomEndTime time="3475762230fs"></ZoomEndTime>
+      <Cursor1Time time="3222222000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="152"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/Leds_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Leds_tb/contadorcincuenta" type="logic">
+      <obj_property name="ElementShortName">contadorcincuenta</obj_property>
+      <obj_property name="ObjectShortName">contadorcincuenta</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Leds_tb/carga_timer_l" type="array">
+      <obj_property name="ElementShortName">carga_timer_l[3:0]</obj_property>
+      <obj_property name="ObjectShortName">carga_timer_l[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Leds_tb/uut/counterled" type="other">
+      <obj_property name="ElementShortName">counterled</obj_property>
+      <obj_property name="ObjectShortName">counterled</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Leds_tb/uut/parpadeo" type="logic">
+      <obj_property name="ElementShortName">parpadeo</obj_property>
+      <obj_property name="ObjectShortName">parpadeo</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Leds_tb/uut/estado" type="array">
+      <obj_property name="ElementShortName">estado[2:0]</obj_property>
+      <obj_property name="ObjectShortName">estado[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Leds_tb/salida" type="array">
+      <obj_property name="ElementShortName">salida[15:0]</obj_property>
+      <obj_property name="ObjectShortName">salida[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

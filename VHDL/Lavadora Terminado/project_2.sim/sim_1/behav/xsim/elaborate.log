@@ -1,0 +1,7 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto af443ddf4ae44319a4b7a699d95b2f8e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot LAVADORA_TESTBENCH_behav xil_defaultlib.LAVADORA_TESTBENCH -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <caliente> does not exist in entity <Lavadora>.  Please compare the definition of block <Lavadora> to its component declaration and its instantion to detect the mismatch. [C:/Users/edu-a/Desktop/Lavadora/project_2.srcs/sim_1/new/LAVADORA_TESTBENCH.vhd:13]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit lavadora_testbench in library work failed.
